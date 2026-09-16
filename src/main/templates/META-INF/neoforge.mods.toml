@@ -1,0 +1,57 @@
+
+license="${mod_license}"
+
+[[mods]] #mandatory
+
+modId="${mod_id}" #mandatory
+
+version="${mod_version}" #mandatory
+
+displayName="${mod_name}" #mandatory
+
+authors="Kurimeshi_chang"
+
+description='''
+Example mod description.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+#[[accessTransformers]]
+#file="META-INF/accesstransformer.cfg"
+
+[[dependencies.${mod_id}]] #optional
+    modId="neoforge" #mandatory
+    type="required" #mandatory
+    versionRange="[${neo_version},)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.gobg]]
+    modId = "geckolib"
+    type = "required"
+    versionRange = "[5.5.0,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.gobg]]
+    modId = "curios"
+    type = "required"
+    versionRange = "[15.0.0,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.gobg]]
+    modId = "bettercombat"
+    type = "required"
+    versionRange = "[3.2.0,)"
+    ordering = "AFTER"
+    side = "BOTH"

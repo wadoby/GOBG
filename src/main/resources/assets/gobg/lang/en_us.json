@@ -1,0 +1,13 @@
+{
+  "itemGroup.gobg": "Example Mod Tab",
+  "block.gobg.example_block": "Example Block",
+  "item.gobg.example_item": "Example Item",
+
+  "gobg.configuration.title": "Galactica Overdrive:Beyond the Gods Configs",
+  "gobg.configuration.section.gobg.common.toml": "Galactica Overdrive:Beyond the Gods Configs",
+  "gobg.configuration.section.gobg.common.toml.title": "Galactica Overdrive:Beyond the Gods Configs",
+  "gobg.configuration.items": "Item List",
+  "gobg.configuration.logDirtBlock": "Log Dirt Block",
+  "gobg.configuration.magicNumberIntroduction": "Magic Number Text",
+  "gobg.configuration.magicNumber": "Magic Number"
+}
